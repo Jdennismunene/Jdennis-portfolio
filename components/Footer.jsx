@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { assets } from '@/assets/assets'
+import 'boxicons'
 
 function Footer({isDarkMode}) {
   return (
@@ -15,9 +16,9 @@ function Footer({isDarkMode}) {
       <div className='text-center sm:flex items-center justify-between border-t border-gray-400 mx-[10%] mt-12 py-6'>
         <p>© 2025 Jdennis Munene. All rights reserved</p>
         <ul className='flex items-center gap-10 justify-between mt-4 sm:mt-0'>
-            <li><a target='_blank' href="https://github.com/Jdennismunene">Github</a></li>
-            <li><a target='_blank' href="https://github.com/Jdennismunene">Linkedin</a></li>
-            <li><a target='_blank' href="https://www.instagram.com/jdenno.m/?hl=en">Instagram</a></li>
+            <li><a target='_blank' href="https://github.com/Jdennismunene"><box-icon type='logo' name='github'></box-icon>Github</a></li>
+            <li><a target='_blank' href="https://github.com/Jdennismunene"><box-icon name='linkedin' type='logo' ></box-icon>Linkedin</a></li>
+            <li><a target='_blank' href="https://www.instagram.com/jdenno.m/?hl=en"><box-icon name='instagram' type='logo' ></box-icon>Instagram</a></li>
         </ul>
       </div>
     </div>
