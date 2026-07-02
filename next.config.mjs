@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default nextConfig;
+const nextConfig = {
+  experimental: {
+    useDeploymentId: true,
+    // Optionally, use with Server Actions
+    useDeploymentIdServerActions: true,
+  },
+};
