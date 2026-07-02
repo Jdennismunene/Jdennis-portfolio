@@ -1,4 +1,3 @@
-import user_image from './user-image.png';
 import code_icon from './code-icon.png';
 import code_icon_dark from './code-icon-dark.png';
 import edu_icon from './edu-icon.png';
@@ -14,7 +13,6 @@ import right_arrow_white from './right-arrow-white.png';
 import logo from './jd-logo2.png';
 import mail_icon from './mail_icon.png';
 import mail_icon_dark from './mail_icon_dark.png';
-import profile_img from './profile-img.png';
 import download_icon from './download-icon.png';
 import hand_icon from './hand-icon.png';
 import header_bg_color from './header-bg-color.png';
@@ -40,7 +38,6 @@ import jdenno_img from './jdenno-img.png'
 import jdenno_img1 from './jdenno-img.jpg'
 
 export const assets = {
-    user_image,
     code_icon,
     code_icon_dark,
     edu_icon,
@@ -56,7 +53,6 @@ export const assets = {
     logo,
     mail_icon,
     mail_icon_dark,
-    profile_img,
     download_icon,
     hand_icon,
     header_bg_color,
